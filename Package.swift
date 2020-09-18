@@ -6,8 +6,6 @@ let package = Package(
     name: "SimpleImageViewer",
     platforms: [
           .iOS(.v12),
-          .tvOS(.v14),
-          .macOS(.v10_15),
     ],
     products: [
         .library(
