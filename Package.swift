@@ -13,8 +13,10 @@ let package = Package(
             targets: ["SimpleImageViewer"]),
     ],
     targets: [
-        .target(name: "SimpleImageViewer"),
+        .target(
+	name: "SimpleImageViewer",
 	path: "ImageViewer"
+	)
     ],
     swiftLanguageVersions: [.v5]
 )
