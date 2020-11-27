@@ -3,20 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SimpleImageViewer",
-    platforms: [
-          .iOS(.v12),
-    ],
-    products: [
-        .library(
-            name: "SimpleImageViewer",
-            targets: ["SimpleImageViewer"]),
-    ],
-    targets: [
-        .target(
 	name: "SimpleImageViewer",
-	path: "ImageViewer"
-	)
-    ],
-    swiftLanguageVersions: [.v5]
+	platforms: [
+		.iOS(.v12),
+	],
+	products: [
+		.library(
+			name: "SimpleImageViewer",
+			targets: ["SimpleImageViewer"]),
+	],
+	targets: [
+		.target(
+			name: "SimpleImageViewer",
+			path: "ImageViewer",
+			resources: [.process("ImageViewerController.xib")]
+		)
+	],
+	swiftLanguageVersions: [.v5]
 )
