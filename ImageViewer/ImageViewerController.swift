@@ -15,7 +15,17 @@ public final class ImageViewerController: UIViewController {
     
     public init(configuration: ImageViewerConfiguration?) {
         self.configuration = configuration
-        super.init(nibName: String(describing: type(of: self)), bundle: Bundle(for: type(of: self)))
+
+		let resolvedBundle: Bundle?
+
+		let name = String(describing: type(of: self))
+		if Bundle.main.path(forResource: name, ofType: "nib") != nil {
+			resolvedBundle = Bundle.main
+		} else {
+			resolvedBundle = Bundle.sm_frameworkBundle()
+		}
+
+		super.init(nibName: name, bundle: resolvedBundle)
         
         modalPresentationStyle = .overFullScreen
         modalTransitionStyle = .crossDissolve

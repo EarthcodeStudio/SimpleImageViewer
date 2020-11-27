@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B89FB4025711A55002E122B /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B89FB3625711868002E122B /* Bundle+Extensions.swift */; };
 		A02EE5CF1EF172C8000EAB41 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EE5CD1EF172C3000EAB41 /* Utilities.swift */; };
 		A02EE5D71EF1897D000EAB41 /* UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EE5D61EF1897D000EAB41 /* UtilitiesTests.swift */; };
 		A02EE5D91EF1897D000EAB41 /* SimpleImageViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BF70A71EDC5B1400109F6E /* SimpleImageViewer.framework */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B89FB3625711868002E122B /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		A02EE5B81EF16E54000EAB41 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02EE5CB1EF16EBE000EAB41 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02EE5CD1EF172C3000EAB41 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				A08B781E1EF16CCF00F8C5BC /* ImageViewerController */,
 				A07E77181ECE2EC800B77D46 /* Transitions */,
 				A03518711EDD6C7D00AAE484 /* Resources */,
+				4B89FB3625711868002E122B /* Bundle+Extensions.swift */,
 			);
 			name = SimpleImageViewer;
 			path = ImageViewer;
@@ -378,6 +381,7 @@
 				A0BF70B41EDC758300109F6E /* ImageViewerTransitioningHandler.swift in Sources */,
 				A0BF70B51EDC758300109F6E /* ImageViewerPresentationTransition.swift in Sources */,
 				A02EE5CF1EF172C8000EAB41 /* Utilities.swift in Sources */,
+				4B89FB4025711A55002E122B /* Bundle+Extensions.swift in Sources */,
 				A0BF70B61EDC758300109F6E /* ImageViewerDismissalTransition.swift in Sources */,
 				A0BF70B71EDC758300109F6E /* ImageViewerController.swift in Sources */,
 				A08B781D1EF1684600F8C5BC /* ImageViewerDismissalInteractor.swift in Sources */,
