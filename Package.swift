@@ -15,9 +15,11 @@ let package = Package(
 	targets: [
 		.target(
 			name: "SimpleImageViewer",
-			path: "ImageViewer",
-			resources: [.process("ImageViewerController.xib")]
+			path: "SimpleImageViewer",
+			exclude: [
+				"Info.plist",
+			],
+			resources: [.process("Resources")]
 		)
-	],
-	swiftLanguageVersions: [.v5]
+	]
 )
