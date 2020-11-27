@@ -18,7 +18,7 @@ extension Bundle {
 						  Bundle(for: BundleToken.self).resourceURL,
 						  Bundle.main.bundleURL]
 
-		let bundleName = "SimpleImageViewController"
+		let bundleName = "SimpleImageViewController_SimpleImageViewController"
 
 		for candidate in candidates {
 			let bundlePath = candidate?.appendingPathComponent(bundleName + ".bundle")
