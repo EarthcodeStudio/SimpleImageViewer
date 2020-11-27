@@ -15,7 +15,7 @@ let package = Package(
 	targets: [
 		.target(
 			name: "SimpleImageViewer",
-			path: "SimpleImageViewer",
+			path: "ImageViewer",
 			exclude: [
 				"Info.plist",
 			],
