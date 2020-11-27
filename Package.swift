@@ -16,7 +16,7 @@ let package = Package(
 		.target(
 			name: "SimpleImageViewer",
 			path: "ImageViewer",
-			resources: [.process("ImageViewerController.xib")]
+			resources: [.process("ImageViewerController.xib")],
 		)
 	],
 	swiftLanguageVersions: [.v5]
